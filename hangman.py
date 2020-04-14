@@ -28,6 +28,7 @@ def get_int(prompt, separator=": "):
     """
     Prompts the user with the given prompt, and returns the int the user enters. Returns false if the user doesn't enter an int.
     :param prompt: The prompt to give the user for the int.
+    :param separator: The separator do use between the prompt and user feedback.
     :return: The int the user entered, or False if the user didn't enter an int.
     """
     try:
